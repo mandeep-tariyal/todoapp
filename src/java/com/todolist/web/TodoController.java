@@ -18,7 +18,7 @@ import javax.servlet.http.*;
 
 @WebServlet("/")
 public class TodoController extends HttpServlet {
-     private static final long serialVersionUID = 1L;
+     
     TodoDao tododao;
     public void init()
     {

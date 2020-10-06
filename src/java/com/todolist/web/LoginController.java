@@ -17,7 +17,7 @@ import javax.servlet.http.*;
 @WebServlet("/login")
 public class LoginController extends HttpServlet
 {
-    private static final long serialVersionUID= 1L;
+    
     private loginDAO logindao;
    public void init()
    {
